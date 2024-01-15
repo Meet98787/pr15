@@ -1,38 +1,64 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+ a{
+  color: black;
+}
+.home{
+  position: relative;
+  top: 10;
+}
+.nevbar{
+  background-color: rgb(255, 210, 127);
+  height: 100vh;
+
+}
+.nevbar a{
+  font-size: 22px;
+  color: #000000 !important;
+}
+.side{
+  background-color: rgb(255, 254, 240);
+}
+.experiences{
+  font-size: 120px;
+  color: #247cff;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.experiences span{
+  font-weight: 700;
+  font-size: 20px;
+  margin-left:-30px ;
+  color: rgb(128, 128, 128);
+}
+.ofexp{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(128, 128, 128);
+  margin-top: -40px;
+}
+.roundabout{
+
+  width: 300px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+  height: 300px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  position: fixed;
+  top: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon{
+  font-size: 30px;
+  
+}
+.admin{
+  background-color: rgb(255, 210, 127);
 }
